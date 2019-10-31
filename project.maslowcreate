@@ -158,10 +158,26 @@
                     ]
                 },
                 {
+                    "atomType": "Cut Layout",
+                    "name": "Cut Layout",
+                    "x": 1066.7361563517916,
+                    "y": 104.58197611292073,
+                    "uniqueID": 750980,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Svg",
+                    "name": "Svg",
+                    "x": 1049.554831704669,
+                    "y": 299.5526601520087,
+                    "uniqueID": 962301,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1326,
-                    "y": 198.5,
+                    "x": 1792,
+                    "y": 269.5,
                     "ioValues": []
                 }
             ],
@@ -224,6 +240,18 @@
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap1ID": 417218
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 417218,
+                    "ap2ID": 962301
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 417218,
+                    "ap2ID": 750980
                 }
             ],
             "fileTypeVersion": 1

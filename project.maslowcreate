@@ -6,7 +6,12 @@
             "x": 0,
             "y": 0,
             "uniqueID": 212722,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "InputXrectangle",
+                    "ioValue": 25.4
+                }
+            ],
             "topLevel": true,
             "allAtoms": [
                 {
@@ -32,6 +37,32 @@
                     "readmeText": "Readme text here"
                 },
                 {
+                    "atomType": "Constant",
+                    "name": "Constant",
+                    "x": 79.93051031487514,
+                    "y": 206.17589576547232,
+                    "uniqueID": 709075,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "InputXrectangle",
+                    "x": 82.171552660152,
+                    "y": 280.8773072747014,
+                    "uniqueID": 760247,
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 25.4
+                        }
+                    ]
+                },
+                {
                     "atomType": "Circle",
                     "name": "Circle",
                     "x": 212,
@@ -53,7 +84,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 25.4
+                            "ioValue": 10
                         },
                         {
                             "name": "y length",
@@ -177,7 +208,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1792,
-                    "y": 269.5,
+                    "y": 270,
                     "ioValues": []
                 }
             ],
@@ -187,6 +218,12 @@
                     "ap2Name": "geometry1",
                     "ap1ID": 816292,
                     "ap2ID": 199762
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "x length",
+                    "ap1ID": 709075,
+                    "ap2ID": 401573
                 },
                 {
                     "ap1Name": "geometry",

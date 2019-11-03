@@ -10,6 +10,10 @@
                 {
                     "name": "InputXrectangle",
                     "ioValue": 25.4
+                },
+                {
+                    "name": "InputYrectangle",
+                    "ioValue": 10
                 }
             ],
             "topLevel": true,
@@ -35,6 +39,19 @@
                     "uniqueID": 567669,
                     "ioValues": [],
                     "readmeText": "Readme text here"
+                },
+                {
+                    "atomType": "Input",
+                    "name": "InputYrectangle",
+                    "x": 82,
+                    "y": 202,
+                    "uniqueID": 150649,
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -194,8 +211,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1792,
-                    "y": 270,
+                    "x": 1408,
+                    "y": 180.5,
                     "ioValues": []
                 }
             ],

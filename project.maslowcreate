@@ -14,6 +14,14 @@
                 {
                     "name": "InputYrectangle",
                     "ioValue": 10
+                },
+                {
+                    "name": "CenterCircleDiameter",
+                    "ioValue": 12.7
+                },
+                {
+                    "name": "YRect",
+                    "ioValue": 12.7
                 }
             ],
             "topLevel": true,
@@ -54,6 +62,19 @@
                     ]
                 },
                 {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 204,
+                    "y": 178,
+                    "uniqueID": 581214,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Input",
                     "name": "InputXrectangle",
                     "x": 82.171552660152,
@@ -67,14 +88,14 @@
                     ]
                 },
                 {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 212,
-                    "y": 204,
-                    "uniqueID": 581214,
+                    "atomType": "Input",
+                    "name": "CenterCircleDiameter",
+                    "x": 303.3333333333333,
+                    "y": 73.33333333333333,
+                    "uniqueID": 682137,
                     "ioValues": [
                         {
-                            "name": "diameter",
+                            "name": "default value",
                             "ioValue": 12.7
                         }
                     ]
@@ -92,15 +113,15 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 12.7
+                            "ioValue": 10
                         }
                     ]
                 },
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 391,
-                    "y": 168,
+                    "x": 387,
+                    "y": 138,
                     "uniqueID": 199762,
                     "ioValues": []
                 },
@@ -117,7 +138,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 12.7
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -168,6 +189,19 @@
                         {
                             "name": "zDist",
                             "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "YRect",
+                    "x": 472.22222222222223,
+                    "y": 335.55555555555554,
+                    "uniqueID": 614169,
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 12.7
                         }
                     ]
                 },
@@ -224,6 +258,12 @@
                     "ap2ID": 199762
                 },
                 {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap1ID": 581214,
+                    "ap2ID": 199762
+                },
+                {
                     "ap1Name": "number or geometry",
                     "ap2Name": "x length",
                     "ap1ID": 760247,
@@ -236,10 +276,10 @@
                     "ap2ID": 401573
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry2",
-                    "ap1ID": 581214,
-                    "ap2ID": 199762
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "diameter",
+                    "ap1ID": 682137,
+                    "ap2ID": 581214
                 },
                 {
                     "ap1Name": "geometry",
@@ -276,6 +316,18 @@
                     "ap2Name": "geometry2",
                     "ap1ID": 949659,
                     "ap2ID": 220878
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "y length",
+                    "ap1ID": 614169,
+                    "ap2ID": 401573
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "y length",
+                    "ap1ID": 614169,
+                    "ap2ID": 381971
                 },
                 {
                     "ap1Name": "geometry",

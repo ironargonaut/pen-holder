@@ -8,10 +8,6 @@
             "uniqueID": 212722,
             "ioValues": [
                 {
-                    "name": "InputYrectangle",
-                    "ioValue": 10
-                },
-                {
                     "name": "InputXrectangle",
                     "ioValue": 25.4
                 },
@@ -47,19 +43,6 @@
                     "uniqueID": 567669,
                     "ioValues": [],
                     "readmeText": "Readme text here"
-                },
-                {
-                    "atomType": "Input",
-                    "name": "InputYrectangle",
-                    "x": 82,
-                    "y": 202,
-                    "uniqueID": 150649,
-                    "ioValues": [
-                        {
-                            "name": "default value",
-                            "ioValue": 10
-                        }
-                    ]
                 },
                 {
                     "atomType": "Circle",
